@@ -11,6 +11,617 @@ html,body{
 }
 
 
+
+#main .nav-1{
+   height: 7vh;
+   width: 100vw;
+   background-color: #F5F5F5;
+   padding: 10px 30px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav-1 img{
+   height: 40px;
+}
+
+
+.nav-1 img:hover{
+   opacity: 0.5;
+
+}
+
+.nav-1 ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+
+}
+
+.nav-1 ul li{
+   margin-right: 1vmax;
+   text-decoration: none;
+}
+
+.nav-1 ul li a{
+   text-decoration: none;
+   color: #000;
+   font: 400 .7rem "roboto";
+   transition: 0.3s ease;
+}
+
+.nav-1 ul li a:hover{
+   color: rgb(143, 139, 139);
+}
+
+.drop-down-box{
+   padding: 10px 10px;
+   position: absolute;
+   z-index: 99;
+   background-color: #fff;
+   top: 7%;
+   right: 11.5%;
+   height: 220px;
+   width: 200px;
+   transform: translateY(-130%);
+   box-shadow: 1px 1px 1px 1px rgba(228, 227, 227, 0.5);
+   border-radius: 5px;
+}
+
+
+.second-nav{
+   padding: 0 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;   
+   height: 10vh;
+   width: 100vw;
+}
+
+
+.second-nav img:hover{
+   opacity: .5;
+
+}
+
+
+.main-item{
+   display: flex;
+}
+
+
+
+.drop-down1 .menu:hover .drop-down-box1{
+   transform: translateY(0%);
+}
+
+
+.drop-down1 .menu{
+   list-style: none;
+   /* color: #000; */
+   
+}
+
+.drop-down1 .menu a{
+ padding: 20px 10px;
+   /* background-color: red; */
+   text-decoration: none;
+   font-size: 1rem;
+   margin-right: 1vmax;
+   color: #000;
+   font-family: "roboto";
+}
+
+.drop-down1 .menu:hover{
+   text-decoration: underline;
+   color: #000;
+}
+
+.drop-down1{
+   /* width: 10vw;
+   height: 10vh; */
+   /* background-color: blueviolet; */
+}
+
+
+.drop-down-box1{  
+   padding-top: 2vmax;
+   position: absolute;
+   left: 0%;
+   /* z-index: 5; */
+   top: 17vh;
+   height: 75vh;
+   width: 100vw;
+   transform: translateY(-130%);
+   background-color: #fff;
+   /* transition: 0.3 ease; */
+}
+
+
+.drop-down-child{
+   height: 70vh;
+   width: 80vw;
+   display: flex;
+   background-color: #fff;
+   margin: auto;
+}
+
+.drop-down-child .box{
+   margin-right: 5vmax;
+}
+
+.drop-down-child .box h2{
+   font: 400 1.1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.drop-down-child .box p{
+   color: rgb(148, 144, 144);
+   margin-bottom: .3vmax;
+   font: 400 .9rem "roboto";
+
+}
+
+.drop-down-child .box p:hover{
+   color: #000;
+}
+
+.drop-down2 .menu:hover .drop-down-box2{
+   transform: translateY(0%);
+}
+
+
+.drop-down2 .chenu{
+   list-style: none;
+}
+
+.drop-down2 .chenu a{
+   padding: 20px 10px;
+   /* background-color: green; */
+   text-decoration: none;
+   font-size: 1rem;
+   margin-right: 1vmax;
+   color: #000;
+   font-family: "roboto";
+}
+
+
+.drop-down2 .chenu a:hover{
+   text-decoration: underline;
+}
+
+.drop-down1{
+   /* width: 10vw;
+   height: 10vh; */
+   /* background-color: blueviolet; */
+}
+
+
+.drop-down-box2{  
+   padding-top: 2vmax;
+   position: absolute;
+   top: 17vh;
+   left: 0%;
+   height: 75vh;
+   width: 100vw;
+   /* transition: 0.3s ease; */
+   transform: translateY(-130%);
+   background-color: #fff;
+   /* transition: 0.3 ease; */
+}
+
+
+.drop-down-child1{
+   height: 70vh;
+   width: 80vw;
+   display: flex;
+   background-color: #fff;
+   margin: auto;
+}
+
+.drop-down-child1 .box{
+   margin-right: 5vmax;
+}
+
+.drop-down-child1 .box h2{
+   font: 400 1.1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.drop-down-child1 .box p{
+   color: rgb(148, 144, 144);
+   margin-bottom: .3vmax;
+   font: 400 .9rem "roboto";
+
+}
+
+.drop-down-child1 .box p:hover{
+   color: #000;
+}
+
+.drop-down3 .menu:hover .drop-down-box3{
+   transform: translateY(0%);
+}
+
+
+.drop-down3 .chenu{
+   list-style: none;
+}
+
+.drop-down3 .chenu a{
+   padding: 20px 10px;
+   /* background-color: green; */
+   text-decoration: none;
+   font-size: 1rem;
+   margin-right: 1vmax;
+   color: #000;
+   font-family: "roboto";
+}
+
+
+.drop-down3 .chenu a:hover{
+   text-decoration: underline;
+   color: #000;
+}
+
+
+.drop-down-box3{  
+   padding-top: 2vmax;
+   position: absolute;
+   padding-left: 10vmax;
+   top: 17vh;
+   left: 0%;
+   height: 75vh;
+   width: 100vw;
+   /* transition: 0.3s ease; */
+   transform: translateY(-130%);
+   background-color: #fff;
+   /* transition: 0.3 ease; */
+}
+
+
+.drop-down-child2{
+   height: 70vh;
+   width: 80vw;
+   display: flex;
+   background-color: #fff;
+   margin: auto;
+}
+
+.drop-down-child2 .box{
+   margin-right: 5vmax;
+}
+
+.drop-down-child2 .box h2{
+   font: 400 1.1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.drop-down-child2 .box p{
+   color: rgb(148, 144, 144);
+   margin-bottom: .3vmax;
+   font: 400 .9rem "roboto";
+
+}
+
+.drop-down-child2 .box p:hover{
+   color: #000;
+}
+
+
+
+.drop-down4 .chenu{
+   list-style: none;
+}
+
+.drop-down4 .chenu a{
+   padding: 20px 10px;
+   /* background-color: green; */
+   text-decoration: none;
+   font-size: 1rem;
+   margin-right: 1vmax;
+   color: #000;
+   font-family: "roboto";
+}
+
+
+.drop-down4 .chenu a:hover{
+   text-decoration: underline;
+   color: #000;
+   
+}
+
+.drop-down-box4{  
+   padding-top: 2vmax;
+   /* padding-left: 25vmax; */
+   position: absolute;
+   left: 0%;
+   top: 17vh;
+   height: 40vh;
+   width: 100%;  
+   transform: translateY(-170%);
+   background-color: #fff;
+  
+}
+
+
+.drop-down-child3{
+   padding-left: 25vmax;
+   height: 30vh;
+   width: 100vw;
+   display: flex;
+   background-color: #fff;
+   margin: auto;
+}
+
+.drop-down-child3 .box{
+   margin-right: 5vmax;
+}
+
+.drop-down-child3 .box h2{
+   font: 400 1.1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.drop-down-child3 .box p{
+   color: rgb(148, 144, 144);
+   margin-bottom: .3vmax;
+   font: 400 .9rem "roboto";
+
+}
+
+.drop-down-child3 .box p:hover{
+   color: #000;
+}
+
+.drop-down5 .menu:hover .drop-down-box5{
+   transform: translateY(0%);
+}
+
+
+.drop-down5 .chenu{
+   list-style: none;
+}
+
+.drop-down5 .chenu a{
+   padding: 20px 10px;
+   /* background-color: green; */
+   text-decoration: none;
+   font-size: 1rem;
+   margin-right: 1vmax;
+   color: #000;
+   font-family: "roboto";
+}
+
+
+.drop-down5 .chenu a:hover{
+   text-decoration: underline;
+   color: #000;
+}
+
+
+.drop-down-box5{  
+   position: absolute;
+   top: 17vh;
+   left: 0%;
+   height: 30vh;
+   width: 100vw;
+   /* transition: 0.3s ease; */
+   transform: translateY(-170%);
+   background-color: #fff;
+   /* transition: 0.3 ease; */
+}
+
+
+.drop-down-child4{
+   padding-top: 2vmax;
+   padding-left: 20vmax;
+   height: 30vh;
+   width: 100vw;
+   display: flex;
+   background-color: #fff;
+   margin: auto;
+}
+
+.drop-down-child4 .box{
+   margin-right: 5vmax;
+}
+
+.drop-down-child4 .box h2{
+   font: 400 1.1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.drop-down-child4 .box p{
+   color: rgb(148, 144, 144);
+   margin-bottom: .3vmax;
+   font: 400 .9rem "roboto";
+
+}
+
+.drop-down-child4 .box p:hover{
+   color: #000;
+}
+
+
+
+#page1{
+
+}
+
+
+
+
+ .drop-down-box p .namkeen{
+    font-size: 1rem;
+    padding-bottom: 1vmax;
+
+ }
+
+ .drop-down-box p{
+    margin-bottom: .5vmax;
+   
+ }
+
+ .drop-down-box p .water{
+    font:400 .9rem "roboto";
+   color: rgb(120, 120, 120);
+ }
+
+ .drop-down-box p .water:hover{
+    color: black;
+ }
+
+
+
+.ratio:hover .drop-down-box{
+    transform: translateY(-0%);
+}
+
+.search-var{
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   width: 160px;
+   height: 40px;
+   background-color:#F5F5F5;
+}
+
+
+.search-var i{
+   margin-left: 1vmax;
+   font-size: 1.2rem;
+}
+
+.search-var input{
+   text-decoration: none;
+   border: none;
+   outline: none;
+   background: transparent;
+   margin-left: 1vmax;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+.search-var:hover{
+   background-color:#E5E5E5;
+}
+
+.heart{
+   height: 35px;
+   width: 35px;
+   border-radius: 50%;
+   /* background-color: blue; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.heart:hover{
+   background-color: #E5E5E5;
+}
+
+
+
+.heart img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.main-search i{
+   font-size: 1.5rem;
+   /* background-color: aqua; */
+   border-radius: 50%;
+   padding: 8px;
+   transition: 0.3 ease;
+}
+
+.main-search i:hover{
+   background-color: #E5E5E5;
+}
+
+.main-search{
+   display: flex;
+   align-items: center;
+}
+
+.box h2{
+   font-size: 1rem;
+   font-family: "roboto";
+   font-weight: 400;
+}
+
+.box h2:hover{
+   text-decoration: underline;
+}
+
+
+.nav-three{
+   height: 10vh;
+   width: 100vw;
+   background-color: #F5F5F5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav-three h4{
+   font: 400 1rem "roboto";
+}
+
+.nav-three p{
+   font: 400 .7rem "roboto";
+   margin-top: .5vmax;
+   text-decoration: underline;
+}
+
+
+.nav-four{
+   /* position: fixed;
+   top: 0%; */
+   /* position: sticky;
+   top: 0; */
+   /* bottom: 50; */
+   z-index: -10;
+   padding: 0 40px;
+   height: 15vh;
+   width: 100vw;
+   background-color: #fff;
+   display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+  
+}
+
+.ri-menu-line{
+   display: none;
+}
+.nav-four ul{
+   margin-left: 25%;
+   display: flex;
+   list-style: none;
+   font-family: "roboto";
+}
+
+.nav-four h2{
+   font-family: "roboto";
+   font-weight: 400;
+}
+
+.nav-four ul li{
+   font-size: 1rem;
+   margin-right: 2vmax;
+}
+
+.nav-four ul li:hover{
+   color: #7c7a7a;
+}
+
+
 #main{
 
 }
@@ -646,14 +1257,19 @@ html,body{
 #page7{
    height: 100vh;
    width: 100vw;
-   background-color: red;
+   /* background-color:black ; */
 }
 
+#page7:hover{
+   height:110vh;
+   transform: translateY(10vh);
+
+}
 
 .page7-child{
    height: 35vh;
    width: 100vw;
-   background-color: #fff;
+   /* background-color: grey; */
 }
 
 .page7-top{
@@ -675,16 +1291,16 @@ html,body{
    width: 60vw;
    overflow: hidden;
    margin: auto;
-   /* background-color: blue; */
+   /* background-color: black; */
    /* transition: 0.3s ease-in-out; */
 }
 
 .page7-top-main:hover {
-   height: 60vh;
-}
-/* .page7-top-main:hover .page7-top{
    height: 50vh;
-} */
+}
+.page7-top-main:hover .page7-top{
+   height: 50vh;
+}
 
 
 
@@ -712,8 +1328,139 @@ html,body{
 
 
 .page7-bottom{
+   display: flex;
    margin-top: 15vh;
-   height: 50vh;
+   height: 40vh;
    width: 100vw;
-   background-color: blue;
+   background-color: black;
+   color: #fff;
+}
+
+
+.page7-bottom-box-1{
+   padding-top: 3vmax;
+   margin-left: 3vmax;
+   display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   flex-direction: column;
+   height: 40vh;
+   width: 15vw;
+   /* background-color: aqua; */
+}
+
+
+.page7-bottom-box-1 h3{
+   margin-bottom: .5vmax;
+   font-size: .8rem;
+   font-weight: 600;
+   font-family: "roboto";
+}
+
+.page7-bottom-box-1 p{
+   margin-bottom: 1vmax;
+   font-size: .8rem;
+   font-weight: 300;
+   font-family: "roboto";
+   color: #7c7a7a;
+}
+
+ .gas{
+   margin-top: .5vmax;
+}
+
+
+.page7-bottom-box-1 p:hover{
+   color: #fff;
+}
+
+.page7-bottom-box-2{
+   margin-left: 30%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: right;
+}
+
+
+.page7-bottom-box-2 h1{
+   margin-top: 3vmax;
+   margin-right: 1vmax;
+   padding: .3vmax;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-color: #7c7a7a;
+   /* border: 2px solid white; */
+   color: #000;   
+}
+
+
+.page7-bottom-box-2 h1:hover{
+   background-color: #fff;
+}
+
+.page7-bottom-box-2 h1 i{
+ font-size: 1.3rem;
+   background: transparent;
+}
+
+.page7-footer{
+   background-color: #000;
+   height: 10vh;
+   width: 100vw;
+   /* background-color: aqua; */
+  /* display: flex; */
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.page-7-footer-nav{
+   color: #7c7a7a;
+   height: 10vh;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 40px;
+   align-items: center;
+}
+
+.page-7-footer-nav ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+
+.page-7-footer-nav ul li{
+   margin-right: 1vmax;
+   font-size: .7rem;
+   font-family: roboto;
+}
+
+.page-7-footer-nav ul li:hover{
+   color: #fff;
+}
+
+
+.page-7-footer-nav ul li
+
+
+.location{
+   color: #fff;
+   font: 400 .7rem "roboto";
+}
+
+.footer i{
+   color: #fff;
+}
+
+
+.footer .copy{
+   /* color:#e7e3e3; */
+   margin-left: 1vmax;
+   font: 300 .7rem  "roboto";
+}
+
+.footer .copy:hover{
+   color: #fff;
 }
