@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#main{
+
+}
+
+
+#page1{
+    height: 130vh;
+    width: 100vw;
+  
+ }
+ 
+ 
+ .page1-image{
+    height: 90vh;
+    padding-top: 15vh;
+    width: 95vw;
+   
+    margin: auto;
+    background-image: url(nike-just-do-it.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .page1-child{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .page1-child h2{
+    font: 400 1rem "roboto";
+ }
+ 
+ .page1-child h1{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: "druk heavy";
+    margin-bottom: 1vmax;
+ }
+ 
+ .page1-child p{
+    /* margin-top: 1vmax; */
+    margin-bottom: 1vmax;
+    font: 400 1rem "roboto";
+ }
+ 
+ .page1-child button{
+    margin-top: 1vmax;
+    outline: none;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font: 600;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    transition: 0.3s ease;
+ }
+ 
+ .page1-child button:hover{
+    background-color: #7c7a7a;
+ }
+ 
+ #page2{
+    height: 110vh;
+    width: 100vw;
+ }
+
+ #page2 h1{
+    margin-bottom: 1vmax;
+    margin-left: 2.5vw;
+    font: 400 1.5rem "roboto";
+ }
+ 
+ .page2-main{
+    display: flex;
+    height: 90vh;
+    width: 95vw;
+    margin-right: 2vmax;
+    margin: auto;  
+ }
+
+
+ .left-page2{
+    position: relative;
+    height: 90vh;
+    width: 31vw;
+    background-color: green;
+    margin-right: 1vmax;
+ }
+
+
+.left-page2 .page2-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(page2\ left\ image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ .left-page2 .page2-image h5{
+    margin-left: 3vmax;
+    margin-bottom: 3vmax;
+  
+
+ }
+
+ .left-page2 .page2-image h5 p{
+    margin-bottom: 2vmax;
+   font: 400 1.3rem "roboto";
+   color: #fff;
+
+ }
+
+ .left-page2 .page2-image h5 button{
+    padding: 9px 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s ease;
+
+ }
+
+ .left-page2 .page2-image h5 button:hover{
+    background-color: #7c7a7a;
+ }
+
+
+ .center-page2{
+    position: relative;
+    height: 90vh;
+    width: 31vw;
+    background-color: green;
+    margin-right: 1vmax;
+ }
+
+
+.center-page2 .page2-image1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(page\ 2\ center\ image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+
+ .center-page2 .page2-image1 h5{
+    margin-left: 3vmax;
+    margin-bottom: 3vmax;
+  
+
+ }
+
+ .center-page2 .page2-image1 h5 p{
+    margin-bottom: 2vmax;
+   font: 400 1.3rem "roboto";
+   color: #fff;
+
+ }
+
+ .center-page2 .page2-image1 h5 button{
+    padding: 9px 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s linear;
+
+ }
+
+ .center-page2 .page2-image1 h5 button:hover{
+    background-color: #7c7a7a;
+ }
+
+
+ .right-page2{
+    position: relative;
+    height: 90vh;
+    width: 31vw;
+    background-color: green;
+    /* margin-right: 2vmax; */
+ }
+
+ .right-page2 .page2-image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(page2\ right\ image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ .right-page2 .page2-image2 h5{
+    margin-left: 3vmax;
+    margin-bottom: 3vmax;
+  
+
+ }
+
+ .right-page2 .page2-image2 h5 p{
+    margin-bottom: 2vmax;
+   font: 400 1.3rem "roboto";
+   color: #fff;
+
+ }
+
+ .right-page2 .page2-image2 h5 button{
+    padding: 9px 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s linear;
+
+ }
+
+ .right-page2 .page2-image2 h5 button:hover{
+    background-color: #7c7a7a;
+ }
+
+
+ #page3{
+    height: 150vh;
+    width: 100vw;
+    /* background-color: aqua; */
+ }
+
+ #page3 h1 {
+   font:400 1.5rem "roboto";
+   margin-left: 2.5vmax;
+   margin-bottom: 1vmax;
+
+ }
+
+
+
+ .video{
+    position: relative;
+    height: 90vh;
+    width: 95vw;
+    margin: auto;
+   
+    /* background-color: red; */
+ }
+
+ .video iframe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* background: none; */
+ }
+
+
+
+
+ .page3-child{
+   height: 50vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.page3-child h3{
+   font: 400 1rem "roboto";
+}
+
+.page3-child h2{
+   font-size: 5rem;
+   font-weight: 900;
+   font-family: "druk heavy";
+   word-spacing: 10px;
+   margin-bottom: 1vmax;
+}
+
+.page3-child p{
+   /* margin-top: 1vmax; */
+   margin-bottom: 1vmax;
+   font: 400 1rem "roboto";
+}
+
+.page3-child button{
+   margin-top: 1vmax;
+   outline: none;
+   padding: 9px 20px;
+   border-radius: 20px;
+   font: 600;
+   border: none;
+   color: #fff;
+   background-color: #000;
+   transition: 0.3s ease;
+}
+
+.page3-child button:hover{
+   background-color: #7c7a7a;
+}
+
+#page4{
+   height: 130vh;
+   width: 100vw;
+   /* background-color: cyan; */
+}
+
+#page4 h1{
+   font:400 1.5rem "roboto";
+   margin-left: 2.5vmax;
+   margin-bottom: 1vmax;
+}
+
+.page4-main{
+   display: flex;
+   height: 110vh;
+   width: 95vw;
+   margin-right: 2vmax;
+   margin: auto;  
+   /* background-color: blue; */
+}
+
+.left-page4 {
+   position: relative;
+   height: 110vh;
+   width: 47vw;
+   /* background-color: green; */
+   margin-right: 1vmax;
+}
+
+
+.left-page4 .page2-image{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-image: url(page4\ left\ image.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.left-page4 .page2-image h5{
+   margin-left: 3vmax;
+   margin-bottom: 3vmax;
+ 
+
+}
+
+.left-page4 .page2-image h5 p{
+   margin-bottom: 2vmax;
+  font: 400 1.3rem "roboto";
+  color: #fff;
+
+}
+
+.left-page4 .page2-image h5 button{
+   padding: 9px 20px;
+   border-radius: 20px;
+   border: none;
+   transition: 0.3s ease;
+
+}
+
+.left-page4 .page2-image h5 button:hover{
+   background-color: #7c7a7a;
+}
+
+.right-page4 {
+   position: relative;
+   height: 110vh;
+   width: 47vw;
+   /* background-color: green; */
+   margin-right: 1vmax;
+}
+
+
+.right-page4 .page2-image1{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-image: url(page4\ right\ image.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.right-page4 .page2-image1 h5{
+   margin-left: 3vmax;
+   margin-bottom: 3vmax;
+ 
+
+}
+
+.right-page4 .page2-image1 h5 p{
+   margin-bottom: 2vmax;
+  font: 400 1.3rem "roboto";
+  color: #fff;
+
+}
+
+.right-page4 .page2-image1 h5 button{
+   padding: 9px 20px;
+   border-radius: 20px;
+   border: none;
+   transition: 0.3s ease;
+
+}
+
+.right-page4 .page2-image1 h5 button:hover{
+   background-color: #7c7a7a;
+}
+
+
+
+
+#page5{
+   height: 190vh;
+   width: 100vw;
+   /* background-color: cyan; */
+}
+
+#page5 h1{
+   font:400 1.5rem "roboto";
+   margin-left: 2.5vmax;
+   margin-bottom: 1vmax;
+}
+
+.page5-main{
+   /* display: flex; */
+   position: relative;
+   height: 120vh;
+   width: 95vw;
+   margin-right: 2vmax;
+   margin: auto;  
+   background-color: blue;
+}
+
+.page5-main-image{
+   height: 100%;
+   width: 100%;
+   background-image: url(page\ 5\ image.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+#page6{
+   height: 110vh;
+   width: 100vw;
+}
+
+#page6 h1{
+   margin-bottom: 1vmax;
+   margin-left: 2.5vw;
+   font: 400 1.5rem "roboto";
+}
+
+.page6-main{
+   display: flex;
+   height: 90vh;
+   width: 95vw;
+   margin-right: 2vmax;
+   margin: auto;  
+}
+
+
+.left-page6{
+   position: relative;
+   height: 90vh;
+   width: 31vw;
+   background-color: green;
+   margin-right: 1vmax;
+}
+
+
+.left-page6 .page6-image{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-image: url(page6\ left.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.left-page6 .page6-image h5{
+   margin-left: 3vmax;
+   margin-bottom: 3vmax;
+ 
+
+}
+.left-page6 .page6-image h5 button{
+   padding: 9px 20px;
+   border-radius: 20px;
+   border: none;
+   transition: 0.3s ease;
+
+}
+
+.left-page6 .page6-image h5 button:hover{
+   background-color: #7c7a7a;
+}
+
+
+
+
+
+
+
+.center-page6{
+   position: relative;
+   height: 90vh;
+   width: 31vw;
+   background-color: green;
+   margin-right: 1vmax;
+}
+
+
+.center-page6 .page6-image1{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-image: url(page\ 6\ center.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+.center-page6 .page6-image1 h5{
+   margin-left: 3vmax;
+   margin-bottom: 3vmax;
+}
+
+.center-page6 .page6-image1 h5 button{
+   padding: 9px 20px;
+   border-radius: 20px;
+   border: none;
+   transition: 0.3s linear;
+
+}
+
+.center-page6 .page6-image1 h5 button:hover{
+   background-color: #7c7a7a;
+}
+
+
+
+
+
+
+.right-page6{
+   position: relative;
+   height: 90vh;
+   width: 31vw;
+   background-color: green;
+   /* margin-right: 2vmax; */
+}
+
+.right-page6 .page6-image2{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-image: url(page6\ right.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.right-page6 .page6-image2 h5{
+   margin-left: 3vmax;
+   margin-bottom: 3vmax;
+}
+
+.right-page6 .page6-image2 h5 button{
+   padding: 9px 20px;
+   border-radius: 20px;
+   border: none;
+   transition: 0.3s linear;
+
+}
+
+.right-page6 .page6-image2 h5 button:hover{
+   background-color: #7c7a7a;
+}
+
+
+
+
+#page7{
+   height: 100vh;
+   width: 100vw;
+   background-color: red;
+}
+
+
+.page7-child{
+   height: 35vh;
+   width: 100vw;
+   background-color: #fff;
+}
+
+.page7-top{
+   height: 24vh;
+   width: 100vw;
+   background-color: #fff;
+   /* transition: 0.3s ease; */
+}
+
+.page7-top:hover{
+   height: 60vh;
+}
+
+
+
+.page7-top-main{
+   display: flex;
+   height: 24vh;
+   width: 60vw;
+   overflow: hidden;
+   margin: auto;
+   /* background-color: blue; */
+   /* transition: 0.3s ease-in-out; */
+}
+
+.page7-top-main:hover {
+   height: 60vh;
+}
+/* .page7-top-main:hover .page7-top{
+   height: 50vh;
+} */
+
+
+
+
+.top-box{
+   height: 50vh;
+   width: 15vw;
+   /* background-color: yellow; */
+}
+
+.top-box h3{
+   font: 400 1rem "roboto";
+   margin-bottom: 1vmax;
+}
+
+.top-box p{
+   font: 400 1rem "roboto";
+   margin-bottom: .7vmax;
+   color: #7c7a7a;
+}
+
+.top-box p:hover{
+   color: #000;
+}
+
+
+.page7-bottom{
+   margin-top: 15vh;
+   height: 50vh;
+   width: 100vw;
+   background-color: blue;
+}
